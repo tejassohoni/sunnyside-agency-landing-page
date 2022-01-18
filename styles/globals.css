@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navbarOption {
+    @apply font-libre font-semibold text-white pr-8;
+  }
+}
